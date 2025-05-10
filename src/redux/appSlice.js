@@ -2,7 +2,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  isMenuOpen: true,  // Track if the sidebar menu is open
+  isMenuOpen: false,
 };
 
 const appSlice = createSlice({
