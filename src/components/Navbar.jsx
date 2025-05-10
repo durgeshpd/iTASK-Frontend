@@ -9,7 +9,7 @@ import axios from "axios";
 const Navbar = () => {
   const user = useSelector((store) => store.user);
   const dispatch = useDispatch();
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   const handleLogout = async () => {
     try {
